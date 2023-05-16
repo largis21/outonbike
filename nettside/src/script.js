@@ -110,7 +110,7 @@ function kalkulerInntektPrUkedag(datasett) {
     const tabellHodeDag = document.createElement("th")
     tabellHodeDag.innerText = "Ukedag"
     const tabellHodeTimer = document.createElement("th")
-    tabellHodeTimer.innerText = "innteket"
+    tabellHodeTimer.innerText = "Inntekt"
     tabellHode.appendChild(tabellHodeDag)
     tabellHode.appendChild(tabellHodeTimer)
 
