@@ -105,6 +105,7 @@ function kalkulerInntektPrUkedag(datasett) {
         },
     })
 
+    inntektPerUkedagTabell.innerHTML = ""
     const tabellHode = document.createElement("tr")
     const tabellHodeDag = document.createElement("th")
     tabellHodeDag.innerText = "Ukedag"
