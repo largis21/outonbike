@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OutOnBike Dashboard</title>
+    <link rel="stylesheet" href="stil.css">
+    <script src="./bibliotek/d3.js"></script>
+    <script src="./bibliotek/chart.js"></script>
+    <script src="./script.js" defer type="module"></script>
+</head>
+<body>
+    <h1>OutOnBike Dashboard</h1>
+    <p id="laster">Vennligst last opp datasett</p>
+    <input id="fil-input" type="file" accept=".csv">
+    <div id="grafer" class="grafer">
+        <div class="graf-kontainer">
+            <h4>Timer per ukedag</h4>
+            <canvas id="timer-per-ukedag"></canvas>
+            <table id="timer-per-ukedag-tabell"></table>
+        </div>
+        <div class="graf-kontainer">
+            <h4>Inntekt per ukedag</h4>
+            <canvas id="inntekt-per-ukedag"></canvas>
+            <table id="inntekt-per-ukedag-tabell"></table>
+        </div>
+    </div>
+</body>
+</html>
